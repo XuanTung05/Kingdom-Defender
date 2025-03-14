@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3817103891803510739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4230320223228586599}
+  - component: {fileID: 1381394962369324511}
+  - component: {fileID: 2900393920033415258}
+  - component: {fileID: 1023825331731411186}
+  m_Layer: 0
+  m_Name: LevelManage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4230320223228586599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817103891803510739}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5762827, y: -11.394503, z: -0.33342206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1381394962369324511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817103891803510739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566dae4ace543f3499225cb63242e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPoint: {fileID: 0}
+  path:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &2900393920033415258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817103891803510739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1997f5919dfd00b4fbc737508d9fbc45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 6952961952523068279, guid: 9f64ae01253166342b7652fa3f203e4e, type: 3}
+  - {fileID: 6952961952523068279, guid: 9f64ae01253166342b7652fa3f203e4e, type: 3}
+  - {fileID: 1985889261480157855, guid: 1daf431dd2101514bb1e149a330c7280, type: 3}
+  startButton: {fileID: 0}
+  countdownText: {fileID: 0}
+  waveCounterText: {fileID: 0}
+  enemyPerSec: 0.5
+  waves:
+  - enemyCounts: 08000000
+    timeUntilNextWave: 40
+  - enemyCounts: 0c000000
+    timeUntilNextWave: 45
+  - enemyCounts: 10000000
+    timeUntilNextWave: 46
+  - enemyCounts: 12000000
+    timeUntilNextWave: 48
+  - enemyCounts: 16000000
+    timeUntilNextWave: 50
+  - enemyCounts: 14000000
+    timeUntilNextWave: 52
+  - enemyCounts: 19000000
+    timeUntilNextWave: 60
+  totalWaves: 7
+  baseHealth: {fileID: 0}
+  starImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  grayStar: {fileID: 21300000, guid: a822c746f6b8ad44fb04ada2d8af9934, type: 3}
+  goldStar: {fileID: 21300000, guid: ba01fa1499ddf2d4cbe43c0c61e96d38, type: 3}
+  victoryPanel: {fileID: 0}
+  restartButton: {fileID: 0}
+  mainMenuButton: {fileID: 0}
+--- !u!114 &1023825331731411186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817103891803510739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7798093e5b05bb64ea5b6ffa360d06ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPrefabs:
+  - {fileID: 2955836013079145524, guid: d04e65e85582fdf40b2c9ff2adc6cf9e, type: 3}
+  moneySetting: {fileID: 0}
