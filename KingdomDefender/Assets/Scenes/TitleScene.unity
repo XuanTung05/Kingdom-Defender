@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -180,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tower Coder\nL\xEA Tu\u1EA5n H\u01B0ng\nNguy\u1EC5n Kh\xE1nh To\xE0n\n\u0110\u1ED7
+  m_text: "Tower Coder\nTr\u1ECBnh Xu\xE2n T\xF9ng\nNguy\u1EC5n Kh\xE1nh To\xE0n\n\u0110\u1ED7
     V\u0103n D\u0169ng\n\u0110\u1ED7 Nh\u1EADt Minh\n\nMain Game Code\nNguy\u1EC5n
     \u0110\u1EAFc Huy\n\nUI Design and UI Code\nNguy\u1EC5n \u0110\u1EAFc Huy"
   m_isRightToLeft: 0
